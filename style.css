@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
-body {   background: #3D5A80; }
+body {   background: #dd0f08; }
 nav ul {  list-style-type: none; display: flex;   gap: 10px;   justify-content: center; }
 nav ul li {   text-align: center; cursor: pointer;}
 
