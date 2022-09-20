@@ -57,7 +57,7 @@ nav ul li {   text-align: center; cursor: pointer;}
 .nav6 li{position: relative;}
 .nav6 li::after {   top: 0;   left: 0;   opacity: 0; line-height: 40px;  width: 100%;   color: #323237;   display: block;   transition: 0.5s;   position: absolute;   background: #adadaf;   content: attr(data-back);   transform: translateY(-50%) rotateX(90deg); }
 .nav6 li::before{   top: 0;   left: 0;   opacity: 1;   color: #adadaf; display: block; padding: 0 30px; line-height: 40px; transition: 0.5s; position: relative; background: #323237; content: attr(data-front); transform: translateY(0) rotateX(0);}
-.nav6 li:hover::after {   opacity: 1;   transform: translateY(0) rotateX(0); }
+.nav6 li:hover::after {   opacity: 1;   transform: translateY(0) rotateX(0) scale(1.12); box-shadow: 5px 5px 5px #040404a3;}
 .nav6 li:hover::before {   opacity: 0;   transform: translateY(50%) rotateX(90deg); }
 /* End Navigation 6 */
 
