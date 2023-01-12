@@ -8,7 +8,12 @@
     <title>Cool Presets</title>
 </head>
 <body>
-    
+    <header>
+        <h3><strong>This is a sample form but not activated</strong></h3>
+    </header>
+    <main>
+    <?php include 'forms/applicationForm.php';?>
+    </main>
 
 <script src="javascript.min.js"></script>
 </body>
